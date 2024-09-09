@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ .header_one, .first_paragraph{
+    text-align: center;
+}
+
+.header_one {
+    color: rgb(41, 146, 41);
+    font-size: 2.6rem;
+    margin-top: 0.3rem;
+    padding: 1.5rem;
+    border: 4px solid rgba(217, 54, 54, 0);
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.21);
+}
+.first_paragraph {
+    font-size: 3rem;
+}
+.second_paragraph {
+    background-color: rgb(4, 87, 4);
+    min-height: 15rem;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    color: whitesmoke;
+}
+.list {
+    list-style-type: none;
+}
+.yellow {
+    color: yellow;
+}
+.underline {
+    text-decoration: underline;
+}
+.third_paragraph{
+    text-align: center;
+    font-weight: bolder;
+    padding: 1rem;
+    color: rgb(219, 5, 5);
+    background-color: beige; 
+
+}
+.fourth_paragraph {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1.4rem;
+}
+.video {
+    margin-left: 10%;
+    margin-right: 10%;
+   border: 1px #333 solid;
+   border-radius: 10px;  
+}
+.introduction {
+    text-align: center;
+    padding: 1rem;
+}
+.causes{
+    text-align: center;
+    font-weight: 400;
+    padding: 1.6rem;
+    font-size: 1.3rem;
+}
+
+.causes ol {
+    list-style-position: inside;
+    line-height: 2rem;
+}
+.causes ul {
+    list-style-position: inside;
+    list-style-type: upper-roman;
+    line-height: 2rem;
+}
+.causes p {
+    line-height: 1.4rem;
+}
+
+.figure img{
+    display: flex;
+    flex-wrap:wrap ;
+    border: 4px double #333;
+    border-radius: 10px;
+    width: 100%;
+}
+ .figure_1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+figcaption {
+    font-size: 2rem;
+    padding: 1.2rem;
+    text-align: center;
+}
+.figure_1 {
+    font-size: 2rem;
+    margin-left: 1rem;
+    
+}
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buy_now {
+    padding: 1rem;
+    text-align: center;
+}
+.purchase {
+position: relative;
+margin: 1.5rem;
+}
+
+.figure_2 {
+    border: 3px double #333;
+   
+}
+ .figure_2 img {
+    width: 100%;
+    height: auto;
+ 
+}
+
+.button {
+    position: absolute;
+    right: 5%;
+    bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 3px double #333 ;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.button a {
+    text-decoration: none;
+}
+.icon  {
+   font-size: 2.5rem; 
+   color: green;
+}
+.purchase .button:hover {
+    padding: 1.1rem;
+}
+.h2_reviews {
+    text-align: center;
+    padding: 1rem;
+}
+.review_pictures {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.second_icon {
+    position: fixed;
+    right: 2rem;
+    bottom: 4rem;
+    font-size: 4.6rem;
+    padding: 0.5;
+    color: green;
+}
+.second_icon:hover {
+    font-size: 5rem;
+}
+@media  (min-width:720px) {
+    .review_pictures {
+    margin-left: 15rem;
+    margin-right: 15rem;
+   } 
+   
+}
+@media  (min-width:820px) {
+    .purchase {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    height: auto;
+   } 
+   
+}
+
+.second_video {
+    margin-left: 10%;
+    margin-right: 10%;
+   border: 3px #333 double;
+   border-radius: 10px;  
+}
+.product_picture {
+    border: 2px #333 double;
+    margin: 3rem;
+}
+@media  (min-width:820px) {
+    .product_picture {
+    margin-left: 25rem;
+    margin-right: 25rem;
+   } 
+   
+}
+@media  (min-width:720px) {
+    .product_picture {
+    margin-left: 8rem;
+    margin-right: 8rem;
+   } 
+}
+.price-tag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.price-tag img {
+    width: 100%;
+    height: auto;
+}
+
+.table, th, td {
+    border: 3px solid #333;
+    border-collapse: collapse ;
+}
+th, td {
+    padding: 2rem;
+}
+.consultation {
+    text-align: center;
+    background-color: green;
+    -webkit-box-shadow: 8px 1px 40px -18px rgba(100, 200, 148, 1);
+-moz-box-shadow: 8px 1px 40px -18px rgba(100, 200, 148, 1);
+box-shadow: 8px 1px 40px -18px rgba(100, 200, 148, 1);
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem 2rem 1rem 2rem;
+}
+.consultation a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight:700 ;
+    font-size: 1.6rem;
+}
+.consultation p:hover {
+    padding: 0.3rem;
+}
